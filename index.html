@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Orelega+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    
+
+    <title>Piedra, Papel o Tijera</title>
+
+</head>
+<body>
+    <header>
+        <h1>
+            Piedra Papel Tijera
+        </h1>
+    </header>
+
+    <main>
+
+    <div id="cuadroPuntaje">
+
+        <div id="score">
+            
+        <div class="scoreNumero"><p>1P<span class="pantalla"  id="score1P">0</span></p></div>
+        <div class="scoreNumero"><p>COM<span class="pantalla" id="scoreCOM">0</span></p></div>
+        <div class="scoreNumero"><p>DRAW<span class="pantalla" id="scoreDraw">0</span></p></div>
+
+        </div>
+
+    </div>  
+
+    <h2>Selecciona tu jugada :</h2>
+
+    <br>
+
+    <div id="mesaDeJuego">
+
+        <h1>PLAYER</h1>
+
+        <div id="selecJugadaPlayer" >
+
+        <button class="boton" id="jugadaPiedra">
+            <img src="./css/Imagenes/Piedra.png">
+        </button> 
+
+        <button class="boton" id="jugadaPapel">
+            <img src="./css/Imagenes/Papel.png">
+            </button> 
+            
+        <button class="boton" id="jugadaTijera">
+            <img src="./css/Imagenes/Tijera.png">
+        </button> 
+
+        </div>
+
+        <h2> JUGADA</h2>
+
+        <button class="boton" id="judadaPlayer">?</button>
+
+        <h2> VS </h2>
+
+        <h1>COM</h1>
+
+        <button class="boton" id="jugadaCom">COM</button> 
+
+        <h2> RESULTADO</h2>
+
+        <button class="boton" id="resultado">?</button> 
+
+    </div>
+
+    <div id="cuadro">
+    </div> 
+
+    <script src="./JS/info.js"></script>
+    <script src="./JS/App.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    </main>    
+    
+    <footer>
+
+        <p>Create by Martin Castro</p>
+
+    </footer>
+</html>

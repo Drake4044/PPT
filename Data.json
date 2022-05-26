@@ -1,0 +1,5 @@
+[
+    { "id": 1, "juego": "PIEDRA", "pierde": "PAPEL", "gana": "TIJERA" },
+    { "id": 2, "juego": "PAPEL", "pierde": "TIJERA", "gana": "PIEDRA"},
+    { "id": 3, "juego": "TIJERA", "pierde": "PIEDRA", "gana": "PAPEL"}
+]
