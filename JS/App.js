@@ -13,10 +13,6 @@ const comienzaJuego = (jugada) => {
 
     let computadora = jugadasPosibles[Math.floor(Math.random() * jugadasPosibles.length)]
 
-    computadora == "Piedra" && btnEmpate == '<img src="./css/Imagenes/Piedra-Com.png">'
-    computadora == "Papel"  && btnEmpate == '<img src="./css/Imagenes/Papel-Com.png">'
-    computadora == "Tijera" && btnEmpate == '<img src="./css/Imagenes/Tijera-Com.png">'
-
     localStorage.setItem("JugadaCOM", computadora) 
 
     console.log("La Computadora jugo " + computadora)
